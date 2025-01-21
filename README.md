@@ -20,6 +20,12 @@ Shah, S. L., Mahmood, N. H., & Latva-aho, M. (2025). *Interference Prediction Us
 
 ---
 
+### **Abstract**
+Interference prediction and resource allocation are critical challenges in mission-critical applications where stringent latency and reliability constraints must be met. This paper proposes a novel Gaussian process regression (GPR)-based framework for predictive interference management and resource allocation in future 6G networks. Firstly, the received interference power is modeled as a Gaussian process, enabling both the prediction of future interference values and their corresponding estimation of uncertainty bounds. Differently from conventional machine learning methods that extract patterns from a given set of data without any prior belief, a Gaussian process assigns probability distributions to different functions that possibly represent the data set which can be further updates using Bayes' rule as more data points are observed. For instance, unlike deep neural networks, the GPR model requires only a few sample points to update its prior beliefs in real-time. Furthermore, we propose a proactive resource allocation scheme that dynamically adjusts resources according to predicted interference. The performance of the proposed approach is evaluated against two benchmarks prediction schemes, a moving average-based estimator and the ideal genie-aided estimator. The GPR-based method outperforms the moving average-based estimator and achieves near-optimal performance, closely matching the genie-aided benchmark.
+
+---
+
+
 ## **Repository Overview**
 
 This repository contains the simulation code and datasets for our paper. The repository is designed to support interference prediction and resource allocation for critical services in local 6G networks. Below is a breakdown of the provided files:
